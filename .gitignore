@@ -1,0 +1,18 @@
+# Dependencies and build caches
+node_modules/
+target/
+bin/
+obj/
+publish/
+
+# Native build output
+*.obj
+*.exe
+*.exe.manifest
+*.pdb
+
+# Editors and OS
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db

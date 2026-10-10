@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>One scribble, ten languages</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #1b1819;
+        color: #fff;
+        font: 17px/1.5 Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 28px;
+      }
+      p {
+        margin: 0 0 20px;
+        color: #bdcacf;
+      }
+      ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 2px;
+        max-width: 900px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      a {
+        display: block;
+        padding: 14px 16px;
+        background: #bdcacf;
+        color: #1b1819;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus-visible {
+        background: #60c5c8;
+        outline: none;
+      }
+      small {
+        display: block;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>One scribble, ten languages</h1>
+    <p>The variants that run in the browser. Sizes are uncompressed.</p>
+    <ul>
+      <li><a href="wat/">WebAssembly text <small>383 bytes, written by hand</small></a></li>
+      <li><a href="c/">C <small>401 bytes, plus a 6 kB loader</small></a></li>
+      <li><a href="zig/">Zig <small>513 bytes</small></a></li>
+      <li><a href="typescript/">TypeScript <small>4.2 kB, no WebAssembly</small></a></li>
+      <li><a href="assemblyscript/">AssemblyScript <small>4.4 kB</small></a></li>
+      <li><a href="rust/">Rust <small>46.8 kB, plus 16 kB of glue</small></a></li>
+      <li><a href="go/">Go <small>1.4 MB</small></a></li>
+    </ul>
+  </body>
+</html>

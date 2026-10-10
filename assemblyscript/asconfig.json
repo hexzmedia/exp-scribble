@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "debug": {
+      "outFile": "build/scribble.debug.wasm",
+      "textFile": "build/scribble.debug.wat",
+      "sourceMap": true,
+      "debug": true
+    },
+    "release": {
+      "outFile": "build/scribble.wasm",
+      "textFile": "build/scribble.wat",
+      "optimizeLevel": 3,
+      "shrinkLevel": 1,
+      "converge": false,
+      "noAssert": false
+    }
+  },
+  "options": {
+    "bindings": "raw"
+  }
+}

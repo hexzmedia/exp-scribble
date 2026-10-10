@@ -1,0 +1,30 @@
+[package]
+name = "scribble-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+    "Window",
+    "Document",
+    "HtmlCanvasElement",
+    "HtmlElement",
+    "HtmlInputElement",
+    "CanvasRenderingContext2d",
+    "MouseEvent",
+    "PointerEvent",
+    "Element",
+    "DomRect",
+    "CssStyleDeclaration",
+]
+
+[profile.release]
+opt-level = "s"
+lto = true

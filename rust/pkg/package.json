@@ -1,0 +1,15 @@
+{
+  "name": "scribble-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "scribble_wasm_bg.wasm",
+    "scribble_wasm.js",
+    "scribble_wasm.d.ts"
+  ],
+  "main": "scribble_wasm.js",
+  "types": "scribble_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
