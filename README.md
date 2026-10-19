@@ -2,7 +2,7 @@
 
 The same small drawing app, built ten times. The smallest is 383 bytes, the largest seven megabytes.
 
-This is the code behind the article [Eén krabbel, tien talen](https://hexz.net/experiment/scribble/) on hexz.net (in Dutch). There you can draw on one surface and switch the language underneath while your scribble stays.
+This is the code behind the article [Eén krabbel, tien talen](https://www.hexz.net/krabbel/?utm_source=github&utm_medium=readme&utm_campaign=scribble) on hexz.net (in Dutch). There you can draw on one surface and switch the language underneath while your scribble stays.
 
 ## The question
 
